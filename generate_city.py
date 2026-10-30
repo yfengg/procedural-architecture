@@ -27,7 +27,7 @@ def generate_building (ax, x):
 
 def generate_city(seed=None):
 
-    if seed:
+    if seed is not None:
         random.seed(seed)
     fig, ax = plt.subplots(figsize=(8, 6))
     
